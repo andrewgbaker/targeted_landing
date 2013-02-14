@@ -1,0 +1,26 @@
+.navbar-fixed-top {
+	display: block;
+	width: 100% !important; 
+	background-image: url(../img/nav_repeat.png);
+    background-repeat: repeat-x !important;
+    font-size: 15px;
+    min-width: 960px !important;
+}
+
+.navbar-fixed-top .nav > li:last-child > a {
+    border-right: 0 none;
+}
+
+.subnav {
+	position: fixed; 
+	top: 0px; 
+	background-image: url(../img/nav_repeat.png);
+    background-repeat: repeat-x !important;
+    z-index: 999999999999999;
+    }
+
+.header {margin-top: 87px;}
+
+img.map_layer {display: none; position: absolute; margin-left: -704px;}
+
+
